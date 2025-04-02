@@ -11,3 +11,12 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
 
 sudo apt-get update
 sudo apt-get install jenkins -y
+
+
+##In Jenkins server, install the following plugins;
+#Maven Integration
+# Github Integration
+#Nexus Artifact Uploader
+# SonaQube Scanner
+# Slack  notification
+#Build Timestamp
